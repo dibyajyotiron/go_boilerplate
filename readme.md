@@ -72,8 +72,9 @@ myproject/
     Create a `.env` file in the root of the project and add the following environment variables:
 
     ```env
-    DATABASE_DSN="host=localhost user=postgres password=yourpassword dbname=yourdb port=5432 sslmode=disable"
-    CONSUL_ADDRESS="localhost:8500"
+    APP_ENV=local
+    VIPER_CONFIG_PATH="./internal/config"
+    DATABASE_DSN=host=localhost user=<youruser> password= database=<yourdb> port=<yourport> sslmode=disable
     ```
 
 3. **Configuration Files**
