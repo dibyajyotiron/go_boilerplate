@@ -1,0 +1,7 @@
+database:
+  dsn: ""
+
+consul:
+  address: "stage.consul.local:8500"
+  serviceName: "userService"
+  serviceID: "userServiceID"

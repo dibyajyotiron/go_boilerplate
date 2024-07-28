@@ -1,0 +1,7 @@
+database:
+  dsn: ""
+
+consul:
+  address: "localhost:8500"
+  serviceName: "userService"
+  serviceID: "userServiceID"
